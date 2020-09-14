@@ -49,8 +49,6 @@
 		20529A3717FF465800FFF627 /* UIAlertView+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 20529A3517FF465800FFF627 /* UIAlertView+TKCategory.m */; };
 		20529A3A17FF46A400FFF627 /* UIActionSheet+TKCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 20529A3817FF46A400FFF627 /* UIActionSheet+TKCategory.h */; };
 		20529A3B17FF46A400FFF627 /* UIActionSheet+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 20529A3917FF46A400FFF627 /* UIActionSheet+TKCategory.m */; };
-		2052E87F174F532500F06B66 /* TKWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2052E87D174F532500F06B66 /* TKWebViewController.h */; };
-		2052E880174F532500F06B66 /* TKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2052E87E174F532500F06B66 /* TKWebViewController.m */; };
 		2053A4951961B14F00A9E00D /* TKMultiSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 2053A4931961B14F00A9E00D /* TKMultiSwitch.h */; };
 		2053A4961961B14F00A9E00D /* TKMultiSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2053A4941961B14F00A9E00D /* TKMultiSwitch.m */; };
 		2053A49D1961CAE400A9E00D /* TKPegSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 2053A49B1961CAE400A9E00D /* TKPegSlider.h */; };
@@ -227,8 +225,6 @@
 		20529A3517FF465800FFF627 /* UIAlertView+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+TKCategory.m"; sourceTree = "<group>"; };
 		20529A3817FF46A400FFF627 /* UIActionSheet+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+TKCategory.h"; sourceTree = "<group>"; };
 		20529A3917FF46A400FFF627 /* UIActionSheet+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+TKCategory.m"; sourceTree = "<group>"; };
-		2052E87D174F532500F06B66 /* TKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKWebViewController.h; sourceTree = "<group>"; };
-		2052E87E174F532500F06B66 /* TKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKWebViewController.m; sourceTree = "<group>"; };
 		2053A4931961B14F00A9E00D /* TKMultiSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKMultiSwitch.h; sourceTree = "<group>"; };
 		2053A4941961B14F00A9E00D /* TKMultiSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKMultiSwitch.m; sourceTree = "<group>"; };
 		2053A49B1961CAE400A9E00D /* TKPegSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKPegSlider.h; sourceTree = "<group>"; };
@@ -638,8 +634,6 @@
 				2027C60D17FB692700A5E148 /* TKKeyboardTableViewController.m */,
 				202DD0C9188EF01200D5541E /* TKAlertViewController.h */,
 				202DD0CA188EF01200D5541E /* TKAlertViewController.m */,
-				2052E87D174F532500F06B66 /* TKWebViewController.h */,
-				2052E87E174F532500F06B66 /* TKWebViewController.m */,
 				3B8F0DF4142AE52B00E3AADE /* TKGradientView.h */,
 				3B8F0DF5142AE52B00E3AADE /* TKGradientView.m */,
 				3BF9A831159791EA002A7F9E /* TKShapeView.h */,
@@ -784,7 +778,6 @@
 				2026B552174810B900447F22 /* TKTextFieldCell.h in Headers */,
 				2026B55B1748257B00447F22 /* TKTextView.h in Headers */,
 				20A2A520174C37870058571F /* TKSlideToUnlockView.h in Headers */,
-				2052E87F174F532500F06B66 /* TKWebViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -980,7 +973,6 @@
 				2026B55C1748257B00447F22 /* TKTextView.m in Sources */,
 				20732DC11800AA880011D714 /* UIFont+TKCategory.m in Sources */,
 				20A2A521174C37870058571F /* TKSlideToUnlockView.m in Sources */,
-				2052E880174F532500F06B66 /* TKWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
