@@ -180,8 +180,6 @@
 		vc = ImageCenterViewController.new;
 	else if([str isEqualToString:HTTP_PROGRESS])
 		vc = NetworkRequestProgressViewController.new;
-	else if([str isEqualToString:WEB_VC])
-		vc = [[TKWebViewController alloc] initWithURL:[NSURL URLWithString:@"http://apple.com"]];
 	
 	
 	if(self.detailViewController && ([str isEqualToString:MONTH_GRID] || [str isEqualToString:DAY_VIEW]))
